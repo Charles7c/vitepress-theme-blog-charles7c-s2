@@ -1,7 +1,6 @@
 ---
 title: ContiNew Admin | 头脑风暴！通知公告设计投票
 author: Charles7c
-originalLink: https://mp.weixin.qq.com/s/GbpA3maPd5NSPsyxHQi9_w
 datetime: 2025-04-17 20:17
 category: 头脑风暴
 tags:

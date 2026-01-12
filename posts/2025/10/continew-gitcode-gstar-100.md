@@ -1,7 +1,6 @@
 ---
 title: ContiNew | GitCode 百大开源评选结束，项目均上榜，贡献者快来填写收货地址！
 author: Charles7c
-originalLink: https://mp.weixin.qq.com/s/jyTWzPDOHInEUzRIk1yHGw
 datetime: 2025-10-14 12:32
 category: 社区动态
 tags:

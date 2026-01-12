@@ -1,7 +1,6 @@
 ---
 title: GitCode 百大开源评选！助力 ContiNew Admin 上榜，赢证书+京东卡+限量周边！
 author: Charles7c
-originalLink: https://mp.weixin.qq.com/s/7gz2zYjnEjkYUXs8K21Mbw
 datetime: 2025-06-30 20:50
 category: 社区动态
 tags:

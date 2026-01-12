@@ -1,7 +1,6 @@
 ---
 title: ContiNew 上线吐槽广场，快来抢 Talk King！
 author: Charles7c
-originalLink: https://mp.weixin.qq.com/s/xKbqF0WgkYsX4K_BQI6zdg
 datetime: 2025-09-10 9:30
 category: 社区动态
 tags:

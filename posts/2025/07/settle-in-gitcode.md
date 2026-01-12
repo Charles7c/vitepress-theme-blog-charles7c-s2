@@ -1,7 +1,6 @@
 ---
 title: ContiNew Admin入驻GitCode：一群“代码洁癖”打造的「持续迭代」前后端分离中后台管理系统框架
 author: GitCode
-originalLink: https://mp.weixin.qq.com/s/wFF3UbRpyNEPAtZUftDbgA
 datetime: 2025-07-21 18:31
 category: 社区动态
 original: false

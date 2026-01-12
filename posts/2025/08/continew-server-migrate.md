@@ -1,7 +1,6 @@
 ---
 title: ContiNew 演示环境已成功迁移至风铃云服务器
 author: Charles7c
-originalLink: https://mp.weixin.qq.com/s/7hFoyO8ak4cHoBvwO0mRog
 datetime: 2025-08-30 10:43
 category: 社区动态
 tags:

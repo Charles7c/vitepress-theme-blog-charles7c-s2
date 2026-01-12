@@ -1,7 +1,6 @@
 ---
 title: ContiNew Admin v3.6.0 | 系统配置全面融合
 author: Charles7c
-originalLink: https://mp.weixin.qq.com/s/jzN4OKUE4zecEOkSbpzJpA
 datetime: 2025-04-14 21:34
 category: 版本更新
 tags:

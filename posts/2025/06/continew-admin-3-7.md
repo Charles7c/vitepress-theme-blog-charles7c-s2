@@ -1,7 +1,6 @@
 ---
 title: ContiNew Admin v3.7.0 | 重构通知公告及消息
 author: Charles7c
-originalLink: https://mp.weixin.qq.com/s/QSWU1No5CegKlswcBq2V4A
 datetime: 2025-06-13 23:50
 category: 版本更新
 tags:

@@ -1,7 +1,6 @@
 ---
 title: ContiNew Admin v4.1.0 | 全局逻辑删除，文件回收站上线
 author: Charles7c
-originalLink: https://mp.weixin.qq.com/s/PgMgPem2KFBjx7fDhdTWuw
 datetime: 2025-11-17 22:00
 category: 版本更新
 top: true
@@ -38,7 +37,7 @@ ContiNew Admin v4.1.0 已正式发布！作为 v4.x 系列的第二个版本，�
 
 ## 全局逻辑删除（适配已有唯一索引）
 
-在本版本，我们全局开启并适配了逻辑删除。经过投票讨论[《ContiNew Admin | 头脑风暴！回收站设计投票》](/posts/2025/brainstorming-recycle-design.html)及综合考虑后，我们采用了如下逻辑删除表方案：
+在本版本，我们全局开启并适配了逻辑删除。经过投票讨论[《ContiNew Admin | 头脑风暴！回收站设计投票》](https://continew.top/posts/2025/brainstorming-recycle-design.html)及综合考虑后，我们采用了如下逻辑删除表方案：
 
 1. 增加 deleted 是否已删除字段，0：表示未删除；id：表示已删除
 2. 对已有唯一索引，同步增加 deleted 字段组合为唯一索引

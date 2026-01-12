@@ -1,7 +1,6 @@
 ---
 title: ContiNew Admin | 头脑风暴！项目模块结构设计投票
 author: Charles7c
-originalLink: https://mp.weixin.qq.com/s/qcUHNI8cDiAwDErcHxEeJA
 datetime: 2025-07-18 20:12
 category: 头脑风暴
 tags:

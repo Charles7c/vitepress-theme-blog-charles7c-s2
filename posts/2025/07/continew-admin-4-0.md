@@ -1,7 +1,6 @@
 ---
 title: ContiNew Admin v4.0.0 | 多租户架构正式上线
 author: Charles7c
-originalLink: https://mp.weixin.qq.com/s/0AueR9m0fjmjZAy6vQWSRw
 datetime: 2025-07-27 22:01
 category: 版本更新
 tags:

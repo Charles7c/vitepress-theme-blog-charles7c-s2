@@ -1,7 +1,6 @@
 ---
 title: ContiNew Admin | 头脑风暴！回收站设计投票
 author: Charles7c
-originalLink: https://mp.weixin.qq.com/s/YCxOUqAwUSdsmkn2M_ySFQ
 datetime: 2025-10-27 22:50
 category: 头脑风暴
 tags:
