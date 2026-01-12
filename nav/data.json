@@ -1,0 +1,55 @@
+[
+  {
+    "title": "后台管理框架",
+    "items": [
+      {
+        "icon": "https://continew.top/logo.svg",
+        "title": "ContiNew Admin",
+        "desc": "多租户中后台管理系统框架 - 持续迭代，页面现代美观，且专注设计与代码细节",
+        "link": "https://continew.top/admin/guide/introduction.html",
+        "source": "https://github.com/continew-org/continew-admin",
+        "badge": "Apache-2.0",
+        "author": "ContiNew",
+        "language": "Java",
+        "tags": ["Web应用开发"]
+      },
+      {
+        "icon": "https://continew.top/logo.svg",
+        "title": "ContiNew Admin UI",
+        "desc": "全新 3.0 版本，基于 Gi Demo 前端模板开发的 ContiNew Admin 前端适配项目",
+        "link": "https://continew.top/admin/guide/introduction.html",
+        "source": "https://github.com/continew-org/continew-admin-ui",
+        "badge": "Apache-2.0",
+        "author": "ContiNew",
+        "language": "Vue",
+        "tags": ["Web应用开发"]
+      }
+    ]
+  },
+  {
+    "title": "工具包",
+    "items": [
+      {
+        "icon": "https://continew.top/logo.svg",
+        "title": "ContiNew Starter",
+        "desc": "经过企业实践优化的 Spring Boot 扩展包",
+        "link": "https://continew.top/starter/guide/introduction.html",
+        "source": "https://github.com/continew-org/continew-starter",
+        "badge": "LGPL-3.0",
+        "author": "ContiNew",
+        "language": "Java",
+        "tags": ["Spring Boot扩展"]
+      },
+      {
+        "icon": "https://nextdoc4j.top/logo/favicon.ico",
+        "title": "NextDoc4j",
+        "desc": "现代化 API 文档 UI 工具，全面替代 Swagger UI",
+        "link": "https://nextdoc4j.top/",
+        "source": "https://gitee.com/NextDoc4j",
+        "badge": "Apache-2.0",
+        "author": "liquor",
+        "language": "Java"
+      }
+    ]
+  }
+]

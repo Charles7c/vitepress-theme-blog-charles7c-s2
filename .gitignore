@@ -1,0 +1,32 @@
+# Node modules
+node_modules/
+
+# Dist files
+dist/
+lib/
+
+# Test coverage files
+coverage/
+
+# MacOS Desktop Services Store
+.DS_Store
+
+# Log files
+*.log
+
+# IDE setting files
+.idea
+!.idea/icon.png
+.vscode
+
+# Temp files
+cache/
+.vitepress/cache/
+!docs/starter/module/cache
+.vite_opt_cache
+
+# Other files
+/src/client/shared.ts
+/src/node/shared.ts
+pnpm-global
+TODOs.md

@@ -1,0 +1,49 @@
+/* 灰度模式 */
+/*html {
+  filter: grayscale(95%);
+  -webkit-filter: grayscale(95%);
+  -moz-filter: grayscale(95%);
+  -ms-filter: grayscale(95%);
+  -o-filter: grayscale(95%);
+  filter:progid:DXImageTransform.Microsoft.BasicImage(grayscale=.95);
+}*/
+
+/*
+.vp-doc h3,h4,h5 {
+  margin: 10px 0 0;
+}
+
+.VPDoc .content-container img {
+  border-radius: 5px;
+}
+*/
+
+/* 关于 */
+.vp-doc._about_me_, .vp-doc._about_ {
+    border: 1px solid var(--vp-c-brand-3);
+    border-radius: 8px;
+
+    img {
+        border-radius: 8px;
+    }
+
+    ul {
+        padding-left: 2.5rem;
+    }
+
+    h3, p {
+        padding-left: 1.25rem;
+        padding-right: 1.25rem;
+    }
+
+    .tip {
+        margin-left: 10px;
+        margin-right: 10px;
+
+        p {
+            padding-left: 0;
+            padding-right: 0;
+        }
+    }
+}
+

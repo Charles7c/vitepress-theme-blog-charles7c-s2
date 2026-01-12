@@ -1,0 +1,15 @@
+{
+  "special": [
+  ],
+  "platinum": [
+  ],
+  "gold": [
+    {
+      "name": "ContiNew Admin",
+      "url": "https://continew.top/docs/admin/guide/why-choose-us.html",
+      "img": "continew-admin.svg"
+    }
+  ],
+  "silver": [],
+  "bronze": []
+}

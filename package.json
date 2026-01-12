@@ -1,0 +1,28 @@
+{
+  "name": "vitepress-theme-blog-charles7c-s2",
+  "description": "vitepress 博客主题 - Charles7c风格2",
+  "version": "1.0.0",
+  "author": "Charles7c",
+  "license": "MIT",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vitepress dev",
+    "build": "vitepress build",
+    "preview": "vitepress preview"
+  },
+  "devDependencies": {
+    "@types/markdown-it": "^14.1.2",
+    "@types/node": "^22.14.1",
+    "@mdit-vue/shared": "^2.1.4",
+    "less": "^4.5.1",
+    "sass": "^1.97.2",
+    "dayjs": "^1.11.19",
+    "remove-markdown": "^0.6.2"
+  },
+  "dependencies": {
+    "vitepress": "2.0.0-alpha.15",
+    "vitepress-plugin-group-icons": "^1.6.5",
+    "vue": "^3.5.26"
+  }
+}
