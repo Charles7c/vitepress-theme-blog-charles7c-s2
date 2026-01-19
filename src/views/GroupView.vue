@@ -10,7 +10,10 @@
       <template v-if="type === 'archive'">
         <template v-for="year in keys" :key="year">
           <div class="title">{{ year }} ({{ posts[year].length }}篇)</div>
-          <PostListLite :posts="posts[year]" />
+          <template v-for="monthItem in getMonthPosts(posts[year])" :key="monthItem.month">
+            <div class="sub-title">{{ monthItem.month }}月</div>
+            <PostListLite :posts="monthItem.posts" />
+          </template>
         </template>
       </template>
 
@@ -49,6 +52,19 @@ const props = defineProps({
 const { ads, adsense } = useAds();
 const { keys, data: posts } = useGroup(postsData || [], props.type);
 
+const getMonthPosts = (posts: any[]) => {
+  const data: Record<string, any[]> = {};
+  posts.forEach((post) => {
+    const month = new Date(post.datetime.time).getMonth() + 1;
+    if (!data[month]) {
+      data[month] = [];
+    }
+    data[month].push(post);
+  });
+  const keys = Object.keys(data).sort((a, b) => parseInt(b) - parseInt(a));
+  return keys.map((k) => ({ month: k, posts: data[k] }));
+};
+
 const url = location.href.split('?')[0];
 const search = location.href.split('?')[1];
 const params = new URLSearchParams(search);
@@ -69,6 +85,11 @@ const handleChange = (link: string) => {
 .title {
   font-size: 1.25rem;
   padding: 14px 0 8px;
+}
+
+.sub-title {
+  font-size: 1.1rem;
+  padding: 10px 0 6px;
 }
 
 .bold {
