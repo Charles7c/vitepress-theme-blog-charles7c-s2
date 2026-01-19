@@ -67,7 +67,7 @@ const handleClick = () => {
 .nav-link-card {
   background-color: var(--vp-c-bg-soft);
   border: 1px solid var(--vp-c-divider);
-  border-radius: 12px;
+  border-radius: 0.375rem;
   padding: 14px;
   height: 100%;
   display: flex;
@@ -90,7 +90,7 @@ const handleClick = () => {
       width: 28px;
       height: 28px;
       margin-right: 12px;
-      border-radius: 8px;
+      border-radius: 0.375rem;
       overflow: hidden;
       border: 1px solid var(--vp-c-divider);
 
@@ -134,7 +134,7 @@ const handleClick = () => {
       background-color: var(--vp-c-bg-soft-up);
       border: 1px solid var(--vp-c-divider);
       border-width: 0 0 1px 1px;
-      border-radius: 0 12px 0 6px;
+      border-radius: 0.375rem;
       padding: 0 4px;
       font-size: 10px;
       font-weight: 400;
