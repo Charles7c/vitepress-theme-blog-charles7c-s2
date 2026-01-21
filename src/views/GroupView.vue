@@ -11,7 +11,7 @@
         <template v-for="year in keys" :key="year">
           <div class="title">{{ year }} ({{ posts[year].length }}篇)</div>
           <template v-for="monthItem in getMonthPosts(posts[year])" :key="monthItem.month">
-            <div class="sub-title">{{ monthItem.month }}月</div>
+            <div class="sub-title">{{ monthItem.month }}月 ({{ monthItem.posts.length }}篇)</div>
             <PostListLite :posts="monthItem.posts" />
           </template>
         </template>

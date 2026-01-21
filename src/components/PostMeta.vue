@@ -1,17 +1,21 @@
 <template>
   <div class="post-header" v-if="enabled">
     <div class="post-meta">
-      <div v-if="author">
-        <span v-if="author === globalAuthor">原创: </span>
-        <span v-else>转载: </span>
-        <span v-if="authorLink"><a :href="authorLink" target="_blank" rel="noopener noreferrer">{{ author }}</a></span>
-        <span v-else>{{ author }}</span>
+      <div class="post-meta-left">
+        <div v-if="author">
+          <span v-if="author === globalAuthor">原创: </span>
+          <span v-else>转载: </span>
+          <span v-if="authorLink"><a :href="authorLink" target="_blank" rel="noopener noreferrer">{{ author }}</a></span>
+          <span v-else>{{ author }}</span>
+        </div>
+        <div v-if="datetime">
+          发布于: <span :title="dayjs(datetime).format('YYYY-MM-DD HH:mm')">{{ dayjs(datetime).fromNow() }}</span>
+        </div>
       </div>
-      <div v-if="datetime">
-        发布于: <span>{{ dayjs(datetime).format('YYYY-MM-DD HH:mm') }}</span>
-      </div>
-      <div v-if="lastUpdated">
-        更新于: <span :title="dayjs(lastUpdated).format('YYYY-MM-DD HH:mm:ss')">{{ dayjs(lastUpdated).fromNow() }}</span>
+      <div class="post-meta-right">
+        <div v-if="lastUpdated">
+          更新于: <span :title="dayjs(lastUpdated).format('YYYY-MM-DD HH:mm:ss')">{{ dayjs(lastUpdated).fromNow() }}</span>
+        </div>
       </div>
     </div>
     <div class="post-tip" v-if="hasTip">
@@ -56,7 +60,21 @@ const hasTip = computed(() => {
 .post-meta {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
   gap: 10px;
+}
+
+.post-meta-left {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.post-meta-right {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  text-align: right;
 }
 
 .post-tip {
