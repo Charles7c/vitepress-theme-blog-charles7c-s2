@@ -14,7 +14,7 @@
       </div>
       <div class="post-meta-right">
         <div v-if="lastUpdated">
-          更新于: <span :title="dayjs(lastUpdated).format('YYYY-MM-DD HH:mm:ss')">{{ dayjs(lastUpdated).fromNow() }}</span>
+          <span :title="dayjs(lastUpdated).format('YYYY-MM-DD HH:mm:ss')">{{ dayjs(lastUpdated).fromNow() }}更新</span>
         </div>
       </div>
     </div>

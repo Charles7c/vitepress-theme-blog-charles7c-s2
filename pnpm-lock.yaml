@@ -33,6 +33,12 @@ importers:
       less:
         specifier: ^4.5.1
         version: 4.5.1
+      markdown-it-footnote:
+        specifier: ^4.0.0
+        version: 4.0.0
+      markdown-it-todo:
+        specifier: ^1.0.5
+        version: 1.0.5
       remove-markdown:
         specifier: ^0.6.2
         version: 0.6.2
@@ -952,6 +958,13 @@ packages:
 
   mark.js@8.11.1:
     resolution: {integrity: sha512-1I+1qpDt4idfgLQG+BNWmrqku+7/2bi5nLf4YwF8y8zXvmfiTBY3PV3ZibfrjBueCByROpuBjLLFCajqkgYoLQ==}
+
+  markdown-it-footnote@4.0.0:
+    resolution: {integrity: sha512-WYJ7urf+khJYl3DqofQpYfEYkZKbmXmwxQV8c8mO/hGIhgZ1wOe7R4HLFNwqx7TjILbnC98fuyeSsin19JdFcQ==}
+
+  markdown-it-todo@1.0.5:
+    resolution: {integrity: sha512-bHfAbwSGSYdi/iG7G5XLyalU4xwZIlZMsd3xf25FGbLkramaia0oydpXJP8HJzJbLCnbM1kdko/zqZJBS9pYrw==}
+    engines: {node: '>=4'}
 
   markdown-it@14.1.0:
     resolution: {integrity: sha512-a54IwgWPaeBCAAsv13YgmALOF1elABB08FxO9i+r4VFk5Vl4pKokRPeX8u5TCgSsPi6ec1otfLjdOpVcgbpshg==}
@@ -2094,6 +2107,10 @@ snapshots:
     optional: true
 
   mark.js@8.11.1: {}
+
+  markdown-it-footnote@4.0.0: {}
+
+  markdown-it-todo@1.0.5: {}
 
   markdown-it@14.1.0:
     dependencies:

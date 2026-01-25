@@ -1,4 +1,6 @@
 import type { MarkdownOptions } from 'vitepress'
+import markdownItTodo from 'markdown-it-todo'
+import markdownItFootnote from 'markdown-it-footnote'
 import { groupIconMdPlugin } from 'vitepress-plugin-group-icons'
 import { postMetaMdPlugin } from './postMetaMdPlugin'
 
@@ -11,7 +13,9 @@ export const markdown: MarkdownOptions = {
   // lineNumbers: true, // 启用行号
 
   config(md) {
-    md.use(groupIconMdPlugin)
-      .use(postMetaMdPlugin)
+    md.use(markdownItTodo)
+        .use(markdownItFootnote)
+        .use(groupIconMdPlugin)
+        .use(postMetaMdPlugin)
   },
 };
