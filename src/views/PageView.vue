@@ -117,7 +117,7 @@ function handleChange(page: number) {
 
 @media (max-width: 768px) {
   .ZCContainer {
-    padding: 0 24px;
+    padding: 0;
   }
 }
 

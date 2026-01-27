@@ -9,7 +9,7 @@
           <span v-else>{{ author }}</span>
         </div>
         <div v-if="datetime">
-          发布于: <span :title="dayjs(datetime).format('YYYY-MM-DD HH:mm')">{{ dayjs(datetime).fromNow() }}</span>
+          发布于: <span :title="dayjs(datetime).format('YYYY-MM-DD HH:mm')">{{ dayjs(datetime).format('YYYY-MM-DD HH:mm') }}</span>
         </div>
       </div>
       <div class="post-meta-right">
