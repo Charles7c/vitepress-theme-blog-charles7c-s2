@@ -53,7 +53,7 @@ draft: 是否为草稿（datetime 为空或 draft 为 true 将不显示在内容
 - [x] ~~分类页：按分类归档~~
 - [x] 支持博客、专栏内容共存
 - [x] 个人导航：个人收藏站点
-- [x] Markdown 扩展：FootNote、TODO
+- [x] Markdown 扩展：FootNote、TODO、Mermaid 图表
 
 ## 部分页面截图
 

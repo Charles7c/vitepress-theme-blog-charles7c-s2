@@ -6,6 +6,8 @@ import Group from './views/GroupView.vue';
 import PostMeta from './components/PostMeta.vue';
 import ThemeLayout from './views/ThemeLayout.vue';
 import './styles/index.less';
+import { initComponent } from 'vitepress-mermaid-preview/component';
+import 'vitepress-mermaid-preview/dist/index.css';
 
 export default {
   extends: DefaultTheme,
@@ -19,6 +21,7 @@ export default {
     return h(ThemeLayout, props)
   },
   enhanceApp({ app }) {
+    initComponent(app);
     app.component('Page', Page);
     app.component('Group', Group);
     app.component('PostMeta', PostMeta);

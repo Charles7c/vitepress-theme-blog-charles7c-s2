@@ -24,6 +24,7 @@
   },
   "dependencies": {
     "vitepress": "2.0.0-alpha.15",
+    "vitepress-mermaid-preview": "^0.1.1",
     "vitepress-plugin-group-icons": "^1.6.5",
     "vue": "^3.5.26"
   }
