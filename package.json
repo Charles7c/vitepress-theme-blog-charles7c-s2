@@ -12,20 +12,22 @@
     "preview": "vitepress preview"
   },
   "devDependencies": {
+    "@mdit-vue/shared": "^2.1.4",
     "@types/markdown-it": "^14.1.2",
     "@types/node": "^22.14.1",
-    "@mdit-vue/shared": "^2.1.4",
-    "less": "^4.5.1",
-    "sass": "^1.97.2",
     "dayjs": "^1.11.19",
-    "remove-markdown": "^0.6.2",
+    "less": "^4.5.1",
     "markdown-it-footnote": "^4.0.0",
-    "markdown-it-todo": "^1.0.5"
+    "markdown-it-mathjax3": "^4.3.2",
+    "markdown-it-todo": "^1.0.5",
+    "remove-markdown": "^0.6.2",
+    "sass": "^1.97.2"
   },
   "dependencies": {
     "vitepress": "2.0.0-alpha.15",
     "vitepress-mermaid-preview": "^0.1.1",
     "vitepress-plugin-group-icons": "^1.6.5",
+    "vitepress-plugin-image-preview": "^0.1.1",
     "vue": "^3.5.26"
   }
 }

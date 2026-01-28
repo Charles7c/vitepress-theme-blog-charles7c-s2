@@ -3,6 +3,7 @@ import {
   groupIconVitePlugin,
   localIconLoader
 } from 'vitepress-plugin-group-icons'
+import { ImagePreviewPlugin } from 'vitepress-plugin-image-preview'
 import { metaData, head, markdown, nav, sidebar, localSearchOptions } from './configs'
 
 export default defineConfig({
@@ -25,6 +26,7 @@ export default defineConfig({
           github: localIconLoader(import.meta.url, '../public/github.svg'),
         }
       }),
+      ImagePreviewPlugin()
     ],
   },
 
